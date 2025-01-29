@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald&display=swap
+);
+/* подклбчения шрифта из гугла  */
+
+body {
+    background: linear-gradient(90deg, #020073 0%, #000000 92%);
+    font-family: Oswald, serif;
+    /* выбор шрифта для всего бади */
+}
+p {
+    color:aquamarine ;
+}
+.nav-link {
+    color: aquamarine;
+}
+.navbar-nav .nav-link.active {
+    color:grey
+}
+
+.navbar-brand img {
+width: 40px;
+}
+.navbar-toggler {
+    background-color: grey;
+}
+/* цвет бургера */
+
+#navbarNav {
+       
+      a:hover {
+        color: white;
+        background-color: black;
+      }
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #020073 0%, #000000 92%);
+
+}
+.card {
+    background: linear-gradient(270deg, #020073 0%, #000000 92%);
+    color: aquamarine;
+
+}
+
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+
+}
+
+.slide-text, 
+.footer-text {
+    color: aquamarine;
+    margin: auto auto;
+    /* означает что и по горизантли и вертикали задать центральноеп положение внуткри контейнера
+      */
+}
+
+footer , .btn-outline-primary {
+    background: linear-gradient(270deg, #020073 0%, #000000 92%);
+    
+}
+.call-anim {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* text-center-встроенный в бустрап команда можно пририсывать к кла */
+
+.card {
+    margin: 4px;
+    padding: 5px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 -10px;
+}
+.fpw
+     { 
+        position: absolute; 
+        bottom: 20px; 
+       }
+.fpw2 {
+    position: absolute; 
+    bottom: 20px; 
+}
